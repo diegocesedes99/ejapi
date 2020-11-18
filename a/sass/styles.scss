@@ -1,0 +1,34 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.character-list {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    display: flex;
+    background-color: #eaf1f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .left {
+    max-width: 200px;
+    margin-right: 2rem;
+  }
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  font-size: 1.125rem;
+
+  &:hover {
+    background-color: darken(blue, 25%);
+  }
+}
